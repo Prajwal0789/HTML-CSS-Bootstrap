@@ -1,0 +1,323 @@
+
+        .table-task1{
+            background-color:powderblue;
+            width:70vw;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .table-task1 th{
+            border-color:white;
+            border:solid 2px white;
+        }
+        .table-task1 td{
+            border-color:white;
+            border:solid 2px white;
+        }
+        .task-1 th{
+            text-align:center;
+        }
+        .task2-i{
+            margin-left:auto;
+            margin-right:auto;
+            border:solid 2px black;
+            width:50vw;
+            padding:10px;
+        }
+        .task2-ii{
+            text-align:center;
+        }
+        .register-heading{
+            color:blue;
+            font-weight:bold;
+            font-size:26px;
+            text-align:center;
+        }
+        .task3 td{
+            border:solid 2px black;
+            padding:2px;
+
+        }
+        .form-q{
+            text-align:center;
+            font-weight:bold;
+            width:150px;
+        }
+        .task3-tabel{
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .reg-login{
+            margin:0px;
+            text-align:right;
+        }
+        .button-class{
+            text-align:center;
+        }
+        .table-css{
+            width:70vw;
+            margin-left:auto;
+            margin-right:auto;
+            background-color:powderblue;
+            border-radius:10px;
+            
+        }
+        .table-css th{
+            text-align:center;
+        }
+        .css-tabel-cell{
+          border-style:solid;
+          border-color:white;
+          border-width:2px;
+          border-radius:10%;
+        }
+        .shape1{
+            width:120px;
+            height:100px;
+            border: solid 5px yellowgreen;
+            margin:10px;
+            border-radius:10px;
+            display: inline-block;
+        }
+
+        .shape2{
+            width:120px;
+            height:100px;
+            border: solid 5px yellowgreen;
+            border-radius:10px;
+            margin:10px;
+            display:inline-block;
+        }
+        .shape3{
+            width:120px;
+            height:100px;
+            border-radius: 25px;
+            border: solid 5px yellowgreen;
+            margin:10px;
+            display:inline-block;
+        }
+        .shape4{
+            width:120px;
+            height:100px;
+            border-radius: 20px;
+            border: solid 5px yellowgreen;
+            margin:10px;
+            display:inline-block;
+        }
+        .shape5{
+            width:120px;
+            height:100px;
+            border: solid 5px yellowgreen;
+            margin:10px;
+            display:inline-block;
+        }
+        .shape6{
+            width:120px;
+            height:100px;
+            border-radius: 20px;
+            border: solid 5px yellowgreen;
+            margin:10px;
+            display:inline-block;
+        }
+        .shape7{
+            width:120px;
+            height:100px;
+            border-radius: 350px;
+            border: solid 5px yellowgreen;
+            margin:10px;
+            display:inline-block;
+        }
+        .shape8{
+            width:120px;
+            height:100px;
+            border-radius: 10px;
+            border: solid 5px yellowgreen;
+            margin:10px;
+            display:inline-block;
+        }
+        .shape9{
+            width:120px;
+            height:100px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius:40px;
+            border-bottom-right-radius:18px;
+            border: solid 5px yellowgreen;
+            margin:10px;
+            display:inline-block;
+        }
+        .task-1-CSS{
+            text-align:center;
+        }
+        .ver-nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: powderblue;
+            border: 1px solid #555;
+        }
+        .ver-nav li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        .ver-nav li a.active {
+            background-color: orange;
+            color: white;
+        }
+        .ver-nav li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+          }
+        .ver-nav{
+            justify-items: center;
+        }
+        .hor-nav ul{
+            list-style-type:none;
+            overflow:hidden;
+            background-color:#777;
+        }
+        .hor-nav li a{
+            display:block;
+            color:white;
+            text-decoration: none;
+            padding:14px 16px;
+            text-align:center;
+        }
+        .hor-nav li a:hover:not(.active) {
+            background-color: #111;
+        }
+        .hor-nav li {
+            float:left;
+            border-right:1px solid #bbb;
+        }
+        .hor-nav .active{
+            background-color:#333;
+        }
+        .css-tabel{
+            width:70%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .css-tabel th{
+            background-color:#111;
+            color:white;
+        }
+        .css-tabel tr:nth-child(even){
+            background-color:#888;
+            color:white;
+        }
+        .css-tabel th,td{
+            padding:8px;
+        }
+        .company{
+            width:700px;
+        }
+        .css-task4{
+            height:50vh;
+        }
+        #mySidenav a {
+            position: absolute;
+            left: -70px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 15px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+          }
+        
+          #mySidenav a:hover {
+            left: 0;
+          }
+          
+          #about {
+            top: 3100px;
+            background-color: #04AA6D;
+          }
+          
+          #blog {
+            top: 3160px;
+            background-color: #2196F3;
+          }
+          
+          #projects {
+            top: 3220px;
+            background-color: #f44336;
+          }
+          
+          #contact {
+            top: 3280px;
+            background-color: #555;
+          }
+          .css-task5{
+            height:100vh;
+            width:100vw;
+          }
+          .profile-pic{
+            height:250px;
+            width:250px;
+            border-radius:150px;
+          }
+          .css-form label{
+            font-weight:bold;
+          }
+          .css-form{
+            justify-items:center;
+          }
+          .inputbox{
+            width:60vw;
+            padding:5px;
+          }
+          .login{
+            width:60vw;
+            color:white;
+            background-color:#04AA6D;
+            border:none;
+            padding:6px;
+          }
+          .cancel{
+            color:white;
+            background-color:red;
+            padding:3px;
+            border:none;
+            padding:5px;
+            width:66px;
+            border-radius:8px;
+
+          }
+          .forgot{
+            margin-left:48vw;
+          }
+          
+          .page-style{
+            color: purple;
+            background-color: #d8da3d;
+            height:100vh;
+            padding:50px;
+          }
+          .navbar-style{
+            list-style-type:none;
+            padding:0;
+            margin:0;
+            position:absolute;
+          }
+          .navbar-style li{
+            background-color: white;
+            margin:20px;
+            padding:10px;
+            border-right:20px solid black;
+          }
+          .navbar-style a{
+            text-decoration:none;
+          }
+          .made-by{
+            margin-top:20px;
+            padding-top:10px;
+            border-top:thin dotted;
+            font-style:italic;
+          }
+          .body-style{
+            padding-left:200px;
+          }

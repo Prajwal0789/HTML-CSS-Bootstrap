@@ -1,0 +1,160 @@
+body {
+    color: #666666;
+    background: white;
+    font-weight: 400;
+    width:100vw;
+}
+h1,h4{
+    color:black;
+}
+a{
+    color: #666666;
+    transition: .3s;
+    text-decoration:none;
+}
+a:hover{
+    color: #fdbe33;
+    outline:none;
+    text-decoration:none;
+}
+.buliderz-body{
+    position:absolute;
+    width:100%;
+    max-width:1350px;
+    margin:0 auto;
+    background-color:white;
+}
+.builderz-head{
+    position:relative;
+    height:90px;
+    background:#fdbe33;
+    width:100vw;
+}
+.name{
+    padding:15px 0;
+    text-align:left;
+    overflow:hidden;
+}
+.name h1{
+    margin:0;
+    color:black;
+    font-size:50px;
+    font-weight:bold;
+    margin-left:30px;
+}
+.navbar-items{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+.nav-detail{
+    padding-left:15px;
+}
+.nav-detail h4{
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.nav-detail p{
+    color:black;
+    font-size:15px;
+}
+.nav-bar {
+    position: relative;
+    background: #fdbe33;
+    width:100vw;
+}
+.nav-bar .navbar {
+    height: 100%;
+    background: #030f27 !important;
+    margin-right:40px;
+    margin-left:20px;
+    padding:15px;
+}
+.nav-link {
+    padding: 8px 15px;
+    font-size: 15px;
+    margin:8px;
+    color:white;
+    font-size:20px;
+}
+.btn {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+.image-caption{
+    justify-content:center;
+    text-align:center;
+}
+.image-caption p{
+    color:white;
+    font-size:30px;
+    margin:15px;
+    left:42vw;
+    top:400px;
+    position:absolute;
+}
+.image-caption h1{
+    color:white;
+    font-size:60px;
+    position:absolute;
+    top:450px;
+    left:30vw;
+    font-weight:bold;
+}
+
+.image-caption .bttn {
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    position:absolute;
+    top:550px;
+}
+
+.img-center{
+    width:100vw;
+}
+.features {
+    position: relative;
+    width:100vw;
+}
+.feature-sec{
+    padding:25px;
+}
+.feature-icon {
+    position: relative;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-detail {
+    padding-left: 30px;
+}
+.feature-detail h4 {
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fdbe33;
+}
+.features .col-4 {
+    background: #030f27;
+    color: #fdbe33;
+}
+.features .col-4:nth-child(2n) {
+    color: #030f27;
+    background: #fdbe33;
+}
+.feature-detail p{
+    margin: 0 0 10px 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+#sp{
+    color:#030f27;
+}
